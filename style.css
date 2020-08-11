@@ -1,4 +1,67 @@
-body{
- background:linear-gradient(45deg,rgba(129, 129, 76, 0.3),rgba(155,231,156,0.4));
- 
+#main{
+  background:linear-gradient(45deg,rgba(129, 129, 76, 0.3),rgba(155,231,156,0.4));
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+#title{
+ font-size: 2 rem;
+ text-align:center;
+ color:rgba(42, 32, 32, 1);
+ text-decoration: underline;
+}
+#image{
+  max-width: 70%;
+  height: auto;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption{
+  text-align: center;
+  padding: 1em;
+  font-style: italic;
+}
+#informationsList{
+ background-color: floralwhite;
+ border-radius: 25px;
+ text-align: start;
+}
+#wikipediaLink{
+ padding-top: 2em;
+ color:rgba(42, 32, 32, 1);
+ text-align: center;
+}
+#tribute-link{
+ color: cornflowerblue;
+}
+.timeLine{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 20px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width : 700px){
+ #informationsList{
+ background-color:  floralwhite;
+ border-radius: 25px;
+ padding: 10px;
+ margin-left:7em;
+ margin-right:7em;
+}
 }
