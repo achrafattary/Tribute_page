@@ -41,21 +41,6 @@
  margin-bottom: 20px;
  margin-left: 20px;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width : 700px){
  #informationsList{
  background-color:  floralwhite;
@@ -65,3 +50,6 @@
  margin-right:7em;
 }
 }
+/*
+this is a test
+*/
